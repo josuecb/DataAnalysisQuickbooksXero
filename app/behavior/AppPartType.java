@@ -1,0 +1,27 @@
+package app.behavior;
+
+/**
+ * Created by Josue on 8/23/2016.
+ */
+public enum  AppPartType {
+    BD_WELCOME_LAY,
+    WC_CONNECT,
+    WC_BUILD_DB,
+    BD_CONTEXT_LAY,
+    DB_CONTEXT_TOP,
+    DB_CONTEXT_BOTTOM,
+    CT_FIRST_CONTEXT,
+    CT_SECOND_CONTEXT,
+    CB_FIRST_CONTEXT,
+    CB_SECOND_CONTEXT,
+    RP_INNER_BODY,
+    RP_INNER_BODY_LIST,
+    ANLYS_INNER_BODY,
+    ANLYS_INNER_BODY_MIN_LIST,
+    ANLYS_INNER_BODY_MAX_LIST,
+    DB_USERNAME,
+    DB_PASSWORD,
+    DB_NAME,
+    DB_DOMAIN,
+    DB_PORT
+}
