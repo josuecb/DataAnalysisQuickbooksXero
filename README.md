@@ -4,4 +4,4 @@ This is a Desktop application Java based that analyze data from quickbooks and x
 ![Analysis Desktop App](img/App.png)
 
 
-![Analysis Desktop App](img/session_list.png)
+![Analysis Desktop App](img/sample.png)
