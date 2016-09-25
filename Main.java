@@ -9,20 +9,9 @@ public class Main {
 //        Test.run(args);
         App app = new App();
         app.setContentPane();
-//        app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
         app.pack();
         app.setVisible(true);
 
-
-
-
-
-//        DatabaseConnection connection = new DatabaseConnection("root", "");
-//
-//        try {
-//            System.out.println(connection.createDatabase("javaTest"));
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
     }
 }

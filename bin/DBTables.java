@@ -4,11 +4,11 @@ package bin;
  * Created by Josue on 8/11/2016.
  */
 public enum DBTables {
-    tf_customers,
-    tf_credentials,
-    tf_accounting_invoices,
-    tf_invoice_type,
-    tf_api_type,
-    tf_payments,
-    tf_data_requests
+    jc_customers,
+    jc_credentials,
+    jc_accounting_invoices,
+    jc_invoice_type,
+    jc_api_type,
+    jc_payments,
+    jc_data_requests
 }

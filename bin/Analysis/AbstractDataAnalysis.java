@@ -12,8 +12,6 @@ import bin.Payment.PaymentAttributes;
 import bin.connection.DatabaseConnection;
 
 import javax.swing.*;
-import javax.xml.crypto.Data;
-import java.sql.Array;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
@@ -250,18 +248,18 @@ abstract class AbstractDataAnalysis {
     }
 
     private ResultSet getInvoiceFromDataBase() {
-        return this.connection.selectWhere(DBTables.tf_accounting_invoices, this.user);
+        return this.connection.selectWhere(DBTables.jc_accounting_invoices, this.user);
     }
 
     private ResultSet getPaymentsFromDatabase() {
         ArrayList<HashMap<String, String>> time = new ArrayList<>();
         time.add(Helpers.createDictionary("timestamp", this.time));
 
-        return this.connection.selectWhere(DBTables.tf_payments, time);
+        return this.connection.selectWhere(DBTables.jc_payments, time);
     }
 
     private ResultSet getSessionsFromDatabase() {
-        return this.connection.selectAll(DBTables.tf_data_requests);
+        return this.connection.selectAll(DBTables.jc_data_requests);
     }
 
 
